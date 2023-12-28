@@ -84,7 +84,7 @@ async def start_pm(client, message: Message, _):
     else:
         out = private_panel(_)
         await message.reply_video(
-            video="https://telegra.ph//file/5374701ae0678848e9631.mp4",
+            video="https://telegra.ph/file/1c9073bda024c361df6c0.mp4",
             caption=_["start_2"].format(message.from_user.mention, app.mention),
             reply_markup=InlineKeyboardMarkup(out),
         )
