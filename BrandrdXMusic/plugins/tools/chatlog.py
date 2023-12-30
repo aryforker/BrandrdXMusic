@@ -8,7 +8,7 @@ from BrandrdXMusic import app
 
 photo = [
     "https://te.legra.ph/file/56665c1fb7457fb847028.jpg",
-    "https://te.legra.ph/file/936df101ca5b97ebdf44c.jpg",
+    "https://telegra.ph/file/568001a5d5e977d2b5976.jpg",
     "https://te.legra.ph/file/a299c30ec42a6ed7eb5d0.jpg",
     "https://te.legra.ph/file/bebd65efe37c2ee7d8e32.jpg",
     "https://te.legra.ph/file/9141f3b892d77dd74a12b.jpg",
@@ -73,11 +73,9 @@ async def _greet(_, message):
                 f"💖𝐔𝐑 𝐈'𝐃: {member.id}\n"
                 
                 f"✍️𝐔𝐑 𝐔.𝐍𝐀𝐍𝐄: @{member.username}\n"
-            
-                f"👥𝐂𝐎𝐌𝐏𝐋𝐄𝐓𝐄𝐃 {count} 𝐌𝐄𝐌𝐁𝐄𝐑𝐒🎉"
             )
             await app.send_photo(message.chat.id, photo=random.choice(photo), caption=msg, reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton(f"★ 𝐀𝐃𝐃 𝐌𝐄 𝐈𝐍 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 𝐁𝐀𝐁𝐘 ★", url=f"https://t.me/{app.username}?startgroup=true")]
+            [InlineKeyboardButton(f"★ 𝐀𝐃𝐃 𝐌𝐄 𝐈𝐍 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ★", url=f"https://t.me/{app.username}?startgroup=true")]
          ]))
 
 #tagall
